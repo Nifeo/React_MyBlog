@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './component/main';
-ReactDOM.render(<Home />, document.getElementById('root'));
+import {BrowserRouter} from 'react-router-dom';
+ReactDOM.render(<BrowserRouter><Home /></BrowserRouter>, document.getElementById('root'));
