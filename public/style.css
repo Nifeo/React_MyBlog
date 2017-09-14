@@ -1,0 +1,18 @@
+@font-face{
+	font-family:siteFont;
+	src:url(irohamaru-mikami-Regular.ttf);
+}
+body{
+	font-family:siteFont;
+	margin:0;
+	background-color:#fff;
+	color:#212121;
+}
+
+html{
+	background-color:#fff;
+}
+
+#root{
+	background-color:#fff;
+}

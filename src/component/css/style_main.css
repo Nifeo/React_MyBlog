@@ -1,0 +1,30 @@
+#wrap_main{
+	background-color:#607D8B;
+	margin:0 auto;
+	width:1280px;
+}
+
+
+#temp1{
+    float: left;
+    height: 200px;
+    width: 50%;
+}
+
+
+#temp{
+	float: left;
+    height: 200px;
+    width: 50%;
+}
+
+#wrap_temp{
+	height:300px;
+}
+
+#wrap_temp::after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+

@@ -1,0 +1,30 @@
+#wrap_header{
+	padding:1px;
+	height:300px;
+	width:100%;
+	background-color:#CFD8DC;
+}
+
+.nav{
+	width:45%;
+	float:left;
+}
+
+ul.nav{
+	list-style-type:none;
+	display: flex;
+}
+
+ul.nav li{
+	padding-right:30%;
+}
+
+.navB {
+    margin-left: 15%;
+}
+
+.navB::after{
+	content:"";
+	display:table;
+	clear:both;
+}

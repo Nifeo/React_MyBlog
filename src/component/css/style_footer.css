@@ -1,0 +1,17 @@
+#wrap_footer{
+	background-color:#455A64;
+	width:100%;
+	height:300px;
+}
+
+#version{
+	float:right;
+	margin-top: 21%;
+    margin-right: 2%;
+}
+
+#wrap_footer::after{
+	content:" ";
+	display:table;
+	clear:both;
+}
