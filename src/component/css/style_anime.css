@@ -1,0 +1,9 @@
+.anime_fading_top{
+	position:relative;
+    margin-top: 400px;
+	animation:fading 0.6s;
+}
+
+@keyframes fading{
+	0%{top:-40px;opacity:0}50%{opacity:0.5}100%{top:0px;opacity:1}
+}

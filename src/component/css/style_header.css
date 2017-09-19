@@ -5,9 +5,14 @@
 	background-color:#CFD8DC;
 }
 
+#selfIntro{
+	text-align:center;
+}
+
 .nav{
-	width:45%;
+	width:39%;
 	float:left;
+	margin-left:1px;
 }
 
 ul.nav{
@@ -16,15 +21,17 @@ ul.nav{
 }
 
 ul.nav li{
-	padding-right:30%;
+	padding-right:15%;
+	padding-left:15%;
 }
 
-.navB {
-    margin-left: 15%;
-}
 
 .navB::after{
 	content:"";
 	display:table;
 	clear:both;
+}
+
+a{
+	text-decoration:none;
 }
