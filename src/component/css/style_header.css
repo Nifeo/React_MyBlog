@@ -1,3 +1,14 @@
+#nav_bar{
+	width:100%;
+	margin: 0 4%;
+}
+
+#nav_bar:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+
 #wrap_header{
 	padding:1px;
 	height:300px;
