@@ -2,17 +2,20 @@ import React from 'react';
 import Header from './js/Header';
 import Footer from './js/Footer';
 import Contents from './js/Contents';
-
-//import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 class Home extends React.Component{
 	render(){
 		return (
-			<div style={{"width":"1080px", "margin":"0 auto", }}>
+		<Router>
+			<div>
 				<Header />
-				<Contents />
+				<div style={{"width":"1080px", "margin":"0 auto"}}>
+					<Contents />
+				</div>
 				<Footer />
 			</div>
+		</Router>
 		);
 	}
 }

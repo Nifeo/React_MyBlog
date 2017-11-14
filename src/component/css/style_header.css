@@ -11,13 +11,18 @@
 
 #wrap_header{
 	padding:1px;
-	height:300px;
 	width:100%;
-	background-color:#CFD8DC;
+	background-color:#FFFFFF;
 }
 
 #selfIntro{
 	text-align:center;
+}
+
+.headerTitle{
+	text-align:left;
+	margin: 1em 0;
+    box-shadow: 0px 0.5px 1px #555;
 }
 
 .nav{
@@ -45,4 +50,9 @@ ul.nav li{
 
 a{
 	text-decoration:none;
+	color:#8590a6;
+}
+
+body{
+	text-decoration-color:#2078bd;
 }
