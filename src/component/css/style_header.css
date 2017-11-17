@@ -19,10 +19,24 @@
 	text-align:center;
 }
 
+.contentTitle img{
+	float:left;
+	height: 43px;
+    margin: 0.8px 2%;
+}
+.contentTitle h4{
+	margin:0;
+}
+
+.contentTitle p{
+	margin:0;
+}
+
 .headerTitle{
 	text-align:left;
 	margin: 1em 0;
     box-shadow: 0px 0.5px 1px #555;
+	padding:0 2%;
 }
 
 .nav{

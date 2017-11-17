@@ -10,7 +10,7 @@ export default class Header extends React.Component{
 			<div style={{"width":"1080px", "margin":"0 auto"}}>
 			<div id="nav_bar" style={{"width":"100%"}}>
 				<ul className="nav" >
-					<li><Link to="/about_me">个人介绍</Link></li>
+					<li><Link to="/freelancer">网页设计</Link></li>
 					<li><Link to="/resume">技能简历</Link></li>
 				</ul>
 				<Link to="/"><img className="nav" src={hbt} style={{'width':'64px'}}></img></Link>
@@ -21,7 +21,7 @@ export default class Header extends React.Component{
 			</div>
 			</div>
 			<Route exact path="/" component={Home}/>
-			<Route exact path="/about_me" component={AboutMe}/>
+			<Route exact path="/freelancer" component={AboutMe}/>
 			<Route exact path="/resume" component={Resume}/>
 			<Route exact path="/job_experience" component={JobExperience}/>
 			<Route exact path="/contact_me" component={ContactMe}/>
@@ -38,7 +38,7 @@ const Home = () =>(
 
 const AboutMe = () =>(
 	<div id="selfIntro">
-		<p>2</p>
+		<p>我坚信合理的工作流程能产生更好的客户体验</p>
 	</div>
 )
 const Resume = () =>(
