@@ -1,3 +1,16 @@
 #body-wrapper{
 	background-color:#ffffff;
 }
+
+#comment{
+	float: right;
+    margin-right: 7%;
+    font-size: 14px;
+    color: #848fa3;
+}
+
+.work_flow{
+	float: left;
+    width: 26%;
+    margin: 0 3%;
+}

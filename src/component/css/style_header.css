@@ -2,6 +2,11 @@
 	width:100%;
 	margin: 0 4%;
 }
+@media screen and (max-width:1080px){
+	#nav_bar{
+		margin:0;
+	}
+}
 
 #nav_bar:after{
 	content:" ";
@@ -15,29 +20,37 @@
 	background-color:#FFFFFF;
 }
 
-#selfIntro{
+.self_intro{
 	text-align:center;
 }
 
-.contentTitle img{
+.self_intro:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+
+.content_title img{
 	float:left;
 	height: 43px;
     margin: 0.8px 2%;
 }
-.contentTitle h4{
+.content_title h4{
 	margin:0;
 }
 
-.contentTitle p{
+.content_itle p{
 	margin:0;
 }
 
-.headerTitle{
+.header_title{
 	text-align:left;
 	margin: 1em 0;
     box-shadow: 0px 0.5px 1px #555;
 	padding:0 2%;
 }
+
+
 
 .nav{
 	width:39%;
