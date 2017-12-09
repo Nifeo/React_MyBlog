@@ -14,3 +14,7 @@
     width: 26%;
     margin: 0 3%;
 }
+
+.white_space span{
+	white-space:pre-line;
+}
