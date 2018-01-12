@@ -9,9 +9,9 @@ const en = {
 	brief_intro_web_design:"this how I will help for build your website",
 	brief_intro_resume:"company need those skill, I will be the best choice",
 	brief_intro_home:"welcome to rick's prosonal website, wish your have a nice day:)",
-	description:`I'm Rick, now i working as a webdevelopment.
-		I am able to develop dynamic webpage with JavaScript, html5/css3 independenly. experience with website administrator. can do all the daily administratation include Mysql, php backend. know how to use Github, good working attitude and well communication skill with team member. undertaking high perusure pressure. 
-		looking for the part-time job now, wish have chances working with you.
+	description:`I'm Rick, now I working as a web developer.
+I am able to develop a dynamic webpage with JavaScript, html5/css3 independently. experience with website administrator. can do all the daily administration include Mysql, PHP backend. know how to use Github, good working attitude and well communication skill with the team member. undertaking high-pressure pressure. 
+looking for the part-time job now, wish has chances working with you.
 		`,
 	sp_link:"the skill specify is on the ",
 	sub_title:"just call me Rick.",
