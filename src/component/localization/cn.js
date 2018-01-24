@@ -20,5 +20,6 @@ const cn = {
 	working_step3:"客户审查通过后交付内容,本次服务结束，根据协议转入售后服务流程*",
 	working_comment:"*默认售后服务时间为半年，具体时长根据工作内容的不同而有所变化",
 	resume_title:"我所熟悉的技能",
+	skill_description:"一直对前段技术有着浓厚的兴趣，有幸能在第一份工作中实践这些技能（html5, css3 and javascript）。与此同时，我也正在努力地学习各种流行的前段技术，并这些技术融入我的工作之中（Node.js,react）",
 }
 export default cn;

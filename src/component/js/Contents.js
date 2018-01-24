@@ -82,9 +82,10 @@ const AboutMe = () =>(
 	</div>
 )
 const Resume = () =>(
-	<div id="selfIntro">
-		<h1 className="header_title"><FormattedMessage id="resume_title" /></h1>
-		<p></p>
+	<div id="selfIntro" className="header_title">
+		<h1><FormattedMessage id="resume_title" /></h1>
+		<p><FormattedMessage id="skill_description"/></p>
+		<br/>
 	</div>
 )
 const JobExperience = () =>(

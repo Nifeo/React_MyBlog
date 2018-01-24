@@ -21,5 +21,6 @@ looking for the part-time job now, wish has chances working with you.
 	working_step3:"onces your has approve my website design, this contract will be end and I will happy to help with after service*",
 	working_comment:"usually I will given half year customer service for free, but it will change basic on contract.",
 	resume_title:"following skill I am familiar with",
+	skill_description:"I alway have intrest on the front-end development, I am lucky to have change apply the front-rnd on my first job. (one year exprience with html5, css3 and javascript). during this time I have also learn how to apply some of puplar front-end tech into into my job(Node.js,react). "
 }
 export default en;
