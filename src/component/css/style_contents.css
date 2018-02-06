@@ -18,3 +18,8 @@
 .white_space span{
 	white-space:pre-line;
 }
+
+.contact_img{
+	width:15%;
+	margin:4%;
+}

@@ -17,7 +17,7 @@ export default class Header extends React.Component{
 				</ul>
 				<Link to="/"><img className="nav" src={hbt} style={{'width':'64px'}}></img></Link>
 				<ul className="nav">
-					<li><Link to="/job_experience"><FormattedMessage id="menu_item3" /></Link></li>
+					<li><Link to="/relative_skill"><FormattedMessage id="menu_item3" /></Link></li>
 					<li><Link to="/contact_me"><FormattedMessage id="menu_item4" /></Link></li>
 				</ul>
 			</div>
@@ -25,7 +25,7 @@ export default class Header extends React.Component{
 			<Route exact path="/" component={Home}/>
 			<Route exact path="/freelancer" component={AboutMe}/>
 			<Route exact path="/resume" component={Resume}/>
-			<Route exact path="/job_experience" component={JobExperience}/>
+			<Route exact path="/relative_skill" component={JobExperience}/>
 			<Route exact path="/contact_me" component={ContactMe}/>
 			</div>
 		);
@@ -53,12 +53,12 @@ const Resume = () =>(
 )
 const JobExperience = () =>(
 	<div className="self_intro">
-		<p>临时记事本</p>
+		<p>this is on going page, some link may not available at this time</p>
 	</div>
 )
 const ContactMe = () =>(
 	<div className="self_intro">
-		<p>5</p>
+		<p style={{"textAlign":"center"}}><FormattedMessage id="contact_title" /></p>
 	</div>
 )
 
